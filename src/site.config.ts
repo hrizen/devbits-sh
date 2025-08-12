@@ -2,16 +2,16 @@ import type { SiteConfig } from '@types'
 
 const config: SiteConfig = {
   // Absolute URL to the root of your published site, used for generating links and sitemaps.
-  site: 'https://multiterm.stelclementine.com',
+  site: 'https://devbits.sh',
   // The name of your site, used in the title and for SEO.
-  title: 'MultiTerm',
+  title: 'devBits',
   // The description of your site, used for SEO and RSS feed.
   description:
-    'A coder-ready Astro blog theme with 59 of your favorite color schemes to choose from',
+    'A blog about coding, web development, programming languages and more!',
   // The author of the site, used in the footer, SEO, and RSS feed.
-  author: 'Katy Kookaburra',
+  author: 'devBits',
   // Keywords for SEO, used in the meta tags.
-  tags: ['Astro', 'Terminal', 'Theme', 'MultiTerm', 'stelcodes'],
+  tags: ['coding', 'programming', 'python', 'javascript', 'blogging'],
   // Path to the image used for generating social media previews.
   // Needs to be a square JPEG file due to limitations of the social card generator.
   // Try https://squoosh.app/ to easily convert images to JPEG.
@@ -27,19 +27,19 @@ const config: SiteConfig = {
       name: 'Home',
       url: '/',
     },
-    {
-      name: 'About',
-      url: '/about',
-    },
+    // {
+    //   name: 'About',
+    //   url: '/about',
+    // },
     {
       name: 'Archive',
       url: '/posts',
     },
-    {
-      name: 'GitHub',
-      url: 'https://github.com/stelcodes/multiterm-astro',
-      external: true,
-    },
+    // {
+    //   name: 'GitHub',
+    //   url: 'https://github.com/stelcodes/multiterm-astro',
+    //   external: true,
+    // },
   ],
   // The theming configuration for the site.
   themes: {
@@ -47,7 +47,7 @@ const config: SiteConfig = {
     mode: 'select',
     // The default theme identifier, used when themeMode is "select" or "light-dark-auto".
     // Make sure this is one of the themes listed in `themes` or "auto" for "light-dark-auto" mode.
-    default: 'catppuccin-mocha',
+    default: 'nord',
     // Shiki themes to bundle with the site.
     // https://expressive-code.com/guides/themes/#using-bundled-themes
     // These will be used to theme the entire site along with syntax highlighting.
@@ -121,12 +121,12 @@ const config: SiteConfig = {
   },
   // Social links to display in the footer.
   socialLinks: {
-    github: 'https://github.com/stelcodes/multiterm-astro',
-    mastodon: 'https://github.com/stelcodes/multiterm-astro',
-    email: 'https://github.com/stelcodes/multiterm-astro',
-    linkedin: 'https://github.com/stelcodes/multiterm-astro',
-    bluesky: 'https://github.com/stelcodes/multiterm-astro',
-    twitter: 'https://github.com/stelcodes/multiterm-astro',
+    // github: 'https://github.com/stelcodes/multiterm-astro',
+    // mastodon: 'https://github.com/stelcodes/multiterm-astro',
+    // email: 'https://github.com/stelcodes/multiterm-astro',
+    // linkedin: 'https://github.com/stelcodes/multiterm-astro',
+    // bluesky: 'https://github.com/stelcodes/multiterm-astro',
+    // twitter: 'https://github.com/stelcodes/multiterm-astro',
     rss: true, // Set to true to include an RSS feed link in the footer
   },
   // Configuration for Giscus comments.
@@ -134,13 +134,13 @@ const config: SiteConfig = {
   // You'll need a GitHub repository with discussions enabled and the Giscus app installed.
   // Take the values from the generated script tag at https://giscus.app and fill them in here.
   // If you don't want to use Giscus, set this to undefined.
-  giscus: {
-    repo: 'stelcodes/multiterm-astro',
-    repoId: 'R_kgDOPNnBig',
-    category: 'Giscus',
-    categoryId: 'DIC_kwDOPNnBis4CteOc',
-    reactionsEnabled: true, // Enable reactions on post itself
-  },
+  // giscus: {
+  //   repo: 'stelcodes/multiterm-astro',
+  //   repoId: 'R_kgDOPNnBig',
+  //   category: 'Giscus',
+  //   categoryId: 'DIC_kwDOPNnBis4CteOc',
+  //   reactionsEnabled: true, // Enable reactions on post itself
+  // },
 }
 
 export default config
